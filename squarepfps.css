@@ -1,0 +1,26 @@
+@-moz-document domain("github.com") {
+.avatar-user{
+    border-radius:6px!important;
+}
+.avatar-small {
+    border-radius: 4px!important;
+}
+.p-2 {
+    padding: 3px!important;
+}
+.user-status-circle-badge-container {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 100% !important;
+    left: 0 !important;
+    z-index: 2 !important;
+    width: 30px !important;
+    height: 38px !important;
+    margin-bottom: -10px !important;
+    margin-left: 0 !important;
+    margin-right: -24px !important;
+}
+.user-status-circle-badge {
+    border-radius:6px !important;
+}
+}

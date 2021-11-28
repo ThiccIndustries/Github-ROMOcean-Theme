@@ -1,0 +1,151 @@
+@-moz-document domain("github.com") {
+:root{
+    --style-link-blue: #5281E1;
+    --color-text-primary: #CDCDFC !important;
+    --color-text-secondary: #AAB2D2;
+    --color-text-tertiary: #8897A8;
+    --color-text-placeholder: #8897A8;
+    --color-text-disabled: #5d6773;
+    --color-text-inverse: #fff;
+    --color-text-link: var(--style-link-blue)!important;
+    --color-text-danger: #cb2431;
+    --color-text-success: #22863a;
+    --color-text-warning: #b08800;
+    --color-text-white: #fff;
+    --color-icon-primary: #CDCDFC;
+    --color-icon-secondary: #8897A8;
+    --color-icon-tertiary: #5d6773;
+    --color-icon-info: var(--style-link-blue)!important;
+    --color-icon-danger: #d73a49;
+    --color-icon-success: #22863a;
+    --color-icon-warning: #b08800;
+    --color-border-primary: #111144 !important;
+    --color-border-secondary: #111144 !important;
+    --color-border-tertiary: #586e75 !important;
+    --color-border-overlay: #e1e4e8;
+    --color-border-inverse: #fff;
+    --color-border-info: var(--style-link-blue)!important;
+    --color-border-danger: #d73a49;
+    --color-border-success: #34d058;
+    --color-border-warning: #f9c513;
+    --color-bg-canvas: #000027 !important;
+    --color-bg-canvas-mobile: #fff;
+    --color-bg-canvas-inverse: #24292e;
+    --color-bg-canvas-inset: #000027 !important;
+    --color-bg-primary: #000027 !important;
+    --color-bg-secondary: #111144 !important;
+    --color-bg-tertiary: #32325E !important;
+    --color-bg-overlay: #111144 !important;
+    --color-bg-backdrop: rgba(27,31,35,0.5);
+    --color-bg-info: #f1f8ff;
+    --color-bg-info-inverse: var(--style-link-blue)!important;
+    --color-bg-danger: #ffeef0;
+    --color-bg-danger-inverse: #d73a49;
+    --color-bg-success: #dcffe4;
+    --color-bg-success-inverse: #28a745;
+    --color-bg-warning: #fff5b1;
+    --color-bg-warning-inverse: #ffd33d;
+    --color-shadow-small: 0 1px 0 rgba(27,31,35,0.04);
+    --color-shadow-medium: 0 3px 6px rgba(149,157,165,0.15);
+    --color-shadow-large: 0 8px 24px rgba(149,157,165,0.2);
+    --color-shadow-extra-large: 0 12px 48px rgba(149,157,165,0.3);
+    --color-shadow-highlight: inset 0 1px 0 hsla(0,0%,100%,0.25);
+    --color-shadow-inset: inset 0 1px 0 rgba(225,228,232,0.2);
+    --color-state-hover-primary-bg: var(--style-link-blue)!important;
+    --color-state-hover-primary-border: var(--style-link-blue)!important;
+    --color-state-hover-primary-text: #fff;
+    --color-state-hover-primary-icon: #fff;
+    --color-state-hover-secondary-bg: #f6f8fa;
+    --color-state-hover-secondary-border: #f6f8fa;
+    --color-state-selected-primary-bg: #186075!important;
+    --color-state-selected-primary-border: var(--style-link-blue)!important;
+    --color-state-selected-primary-text: #fff;
+    --color-state-selected-primary-icon: #fff;
+    --color-state-focus-border: var(--style-link-blue)!important;
+    --color-state-focus-shadow: 0 0 0 3px rgba(3,102,214,0.3);
+    --color-box-header-blue-bg: var(--color-bg-tertiary)!important;
+    --color-header-bg: var(--color-bg-tertiary)!important;
+    --color-box-header-blue-border: var(--color-bg-tertiary)!important;
+    --color-underlinenav-text: var(--color-text-primary)!important;
+    --color-underlinenav-text-active: var(--color-underlinenav-text)!important;
+    --color-btn-bg: var(--color-bg-tertiary)!important;
+    --color-btn-text: var(--color-text-primary)!important;
+    --color-menu-heading-text: var(--color-text-primary)!important;
+    --color-input-contrast-bg: var(--color-bg-secondary)!important;
+    --color-input-border: var(--color-bg-tertiary)!important;
+    --color-btn-primary-bg: #32915b!important;
+    --color-btn-primary-shadow: var(--color-btn-shadow) !important;
+    --color-btn-primary-inset-shadow: var(--color-btn-inset-shadow) !important;
+    --color-social-count-bg: var(--color-bg-tertiary) !important;
+    --color-header-search-bg: var(--color-bg-primary)!important;
+    --color-page-header-bg: var(--color-bg-secondary)!important;
+    --color-canvas-default: var(--color-bg-primary)!important;
+    --color-canvas-subtle: var(--color-bg-secondary)!important;
+    --color-fg-default: var(--color-text-secondary)!important;
+    --color-fg-muted: var(--color-text-tertiary)!important;
+    --color-canvas-overlay: var(--color-bg-secondary)!important;
+    --color-header-text: var(--color-text-primary)!important;
+    /*--color-header-logo: var(--color-text-primary)!important;*/
+}
+.header-nav-current-user .user-profile-link{
+    color: var(--color-text-primary)!important;
+}
+/*.dropdown-item {
+    color: var(--color-text-secondary)!important;
+}*/
+.Link--secondary {
+    color: var(--color-text-secondary)!important;
+}
+.Link--secondary:hover {
+    color: var(--color-text-link)!important;
+}
+.Link--secondary:visited {
+    color: #627488!important;
+}
+.header-search-wrapper {
+    color: var(--color-text-primary)!important;
+}
+.jump-to-suggestions-path {
+    color: var(--color-text-primary)!important;
+}
+.jump-to-field-active {
+    background: var(--color-bg-primary)!important;
+}
+.UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current=false]), .UnderlineNav-item[role=tab][aria-selected=true] {
+    font-weight: 600;
+    color: var(--color-underlinenav-text-active);
+    border-bottom-color: var(--color-bg-tertiary)!important;
+    outline: 1px dotted transparent;
+    outline-offset: -1px;
+}
+
+.ajax-pagination-form .ajax-pagination-btn {
+    background: var(--color-bg-secondary);
+}
+.social-count {
+    border: 1px solid var(--color-border-tertiary)!important;
+}
+.btn-sm{
+    border: 1px solid var(--color-border-tertiary)!important;
+}
+.Label.Label--outline {
+    color: var(--color-text-primary);
+    border-color: var(--color-border-tertiary);
+}
+.Label {
+    border: 2px solid transparent;
+}
+
+div.border-bottom.color-border-secondary {
+    background: var(--color-bg-primary)!important;
+}
+div.position-absolute.right-0.left-0.bottom-0.text-center.mb-n3 {
+    background: linear-gradient(to top, var(--color-bg-tertiary), rgba(255,255,255,0))!important;
+}
+.feature-preview-indicator {
+    background-image: linear-gradient(var(--color-text-primary),var(--style-link-blue));
+}
+/*aside.color-bg-primary{
+    background: var(--color-bg-secondary)!important;
+}*/
+}
