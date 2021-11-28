@@ -20,5 +20,7 @@ Curated by Austin of Thicc Industries LTD.
 ## License
 
 This software is provided without warranty under the:
+
 Thicc-Industries-I-Don't-Care-Do-What-You-Want License.
+
 This allows the end user to Do What You Want, I Don't Care.
