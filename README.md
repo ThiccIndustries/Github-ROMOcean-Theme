@@ -7,7 +7,7 @@ Includes optional square profile pictures for geniuses.
 * DONT USE STYLISH. this breaks in stylish. i remember hearing something about privacy which is no bueno, use stylus instead.
 
 * this is a theme using github's new* theming system
-<sup>\*(github themes have been around for a while)</sup>
+<br><sup>\*(github themes have been around for a while)</sup>
 
 * i should note that this is perpetually incomplete. if you edit/fix something and submit a pull request or whatever. if i like it i'll put it in.
 
