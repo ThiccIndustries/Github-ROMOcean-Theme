@@ -86,6 +86,10 @@
     --color-canvas-overlay: var(--color-bg-secondary)!important;
     --color-header-text: var(--color-text-primary)!important;
     /*--color-header-logo: var(--color-text-primary)!important;*/
+    --color-border-default: var(--color-bg-primary)!important;
+}
+#dashboard{
+    background-color: var(--color-canvas-default)!important;
 }
 .header-nav-current-user .user-profile-link{
     color: var(--color-text-primary)!important;
@@ -144,6 +148,9 @@ div.position-absolute.right-0.left-0.bottom-0.text-center.mb-n3 {
 }
 .feature-preview-indicator {
     background-image: linear-gradient(var(--color-text-primary),var(--style-link-blue));
+}
+.Box {
+    background-color: var(--color-canvas-overlay);
 }
 /*aside.color-bg-primary{
     background: var(--color-bg-secondary)!important;
