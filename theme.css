@@ -91,6 +91,12 @@
 #dashboard{
     background-color: var(--color-canvas-default)!important;
 }
+.color-bg-default{
+    background-color: var(--color-header-bg)!important;
+}
+.UnderlineNav-item {
+    border-bottom: 2px solid var(--color-header-bg)!important;
+}
 .header-nav-current-user .user-profile-link{
     color: var(--color-text-primary)!important;
 }
@@ -118,7 +124,7 @@
 .UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current=false]), .UnderlineNav-item[role=tab][aria-selected=true] {
     font-weight: 600;
     color: var(--color-underlinenav-text-active);
-    border-bottom-color: var(--color-bg-tertiary)!important;
+    border-bottom-color: var(--color-icon-secondary)!important;
     outline: 1px dotted transparent;
     outline-offset: -1px;
 }
