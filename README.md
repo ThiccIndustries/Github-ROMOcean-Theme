@@ -3,7 +3,6 @@
 Includes optional square profile pictures for geniuses.
 
 ## Additional info
-[click here to install](https://github.com/ThiccIndustries/Github-ROMOcean-Theme/raw/main/theme.css)
 
 * DONT USE STYLISH. this breaks in stylish. i remember hearing something about privacy which is no bueno, use stylus instead.
 
