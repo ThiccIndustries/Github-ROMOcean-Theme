@@ -1,4 +1,5 @@
 # Github ROMOcean Theme
+<img src="https://raw.githubusercontent.com/ThiccIndustries/Github-ROMOcean-Theme/main/example.png"/>
 
 Includes optional square profile pictures for geniuses.
 
