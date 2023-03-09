@@ -99,6 +99,9 @@
     --color-border-default: var(--color-bg-secondary)!important;
     --color-border-muted: var(--color-bg-secondary)!important;
     --color-calendar-graph-day-bg: var(--color-bg-secondary)!important;
+    --color-accent-subtle: var(--color-bg-secondary)!important;
+    --color-diff-blob-addition-line-bg:#114422!important;
+    --color-diff-blob-deletion-line-bg:#441122!important;
 }
 .hx_color-icon-directory{
     /*color: var(--color-bg-warning-inverse)!important;/*enable for yellow folders (awesome)*/
@@ -119,8 +122,14 @@
 #dashboard{
     background-color: var(--color-canvas-default)!important;
 }
-.color-bg-default{
+aside.color-bg-default{
+    background-color: var(--color-bg-secondary)!important;
+}
+span.color-bg-default{
     background-color: var(--color-bg-primary)!important;
+}
+.color-bg-default{
+    background-color: var(--color-header-bg)!important;
 }
 .UnderlineNav-item {
     border-bottom: 2px solid var(--color-header-bg)!important;
@@ -208,4 +217,5 @@ div.position-absolute.right-0.left-0.bottom-0.text-center.mb-n3 {
 /*aside.color-bg-primary{
     background: var(--color-bg-secondary)!important;
 }*/
+}
 }
