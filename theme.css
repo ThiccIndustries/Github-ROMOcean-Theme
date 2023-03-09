@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name         GitHub: ROMOcean
+@name           The Unbeveling
+@namespace      github.com
+@version        0.7.0
+@description    `Github stylized like ROMOcean`
+@author         Wrapfield
+==/UserStyle== */
+
 @-moz-document domain("github.com") {
 :root{
     --style-link-blue: #5281E1;
@@ -88,6 +97,20 @@
     --color-header-text: var(--color-text-primary)!important;
     /*--color-header-logo: var(--color-text-primary)!important;*/
     --color-border-default: var(--color-bg-secondary)!important;
+    --color-border-muted: var(--color-bg-secondary)!important;
+    --color-calendar-graph-day-bg: var(--color-bg-secondary)!important;
+}
+.hx_color-icon-directory{
+    /*color: var(--color-bg-warning-inverse)!important;/*enable for yellow folders (awesome)*/
+    color: var(--color-fg-muted)!important;
+}
+.Box-header{
+    background-color: var(--color-bg-tertiary)!important;
+}
+.flash-warn:not(.Banner){
+    background-image: linear-gradient(var(--color-bg-secondary), var(--color-bg-primary));
+    border-bottom: 1px solid var(--color-attention-muted);
+    color: var(--color-attention-subtle);
 }
 .filter-list.small .filter-item{
     border-bottom: 1px solid var(--color-border-default);
@@ -97,10 +120,15 @@
     background-color: var(--color-canvas-default)!important;
 }
 .color-bg-default{
-    background-color: var(--color-header-bg)!important;
+    background-color: var(--color-bg-primary)!important;
 }
 .UnderlineNav-item {
     border-bottom: 2px solid var(--color-header-bg)!important;
+    border-left: 2px solid var(--color-bg-primary)!important;
+    background-color: var(--color-bg-secondary)!important;
+}
+.position-sticky{
+    background-color: var(--color-bg-secondary)!important;
 }
 .header-nav-current-user .user-profile-link{
     color: var(--color-text-primary)!important;
@@ -170,6 +198,12 @@ div.position-absolute.right-0.left-0.bottom-0.text-center.mb-n3 {
 }
 .topic-tag-link:hover {
     background-color: var(--color-text-link);
+}
+.top-0{
+    margin-top: 0!important;
+}
+.js-profile-timeline-year-list{
+    background-color: var(--color-bg-primary)!important;
 }
 /*aside.color-bg-primary{
     background: var(--color-bg-secondary)!important;
